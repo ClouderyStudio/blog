@@ -1,3 +1,6 @@
+packages:
+  - '.'  # 根目录作为包
+
 onlyBuiltDependencies:
   - esbuild
   - sharp
