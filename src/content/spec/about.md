@@ -1,13 +1,9 @@
 # About
 ![随机图床](https://rba.kanostar.top/adapt)
 
-[/posts/mc/download/](/posts/mc/download/)
-
-本站 `Favicon` 原图取自 [Pixiv @ReRin](https://www.pixiv.net/artworks/113745329)
-
 # 关于&隐私政策
 
-最后更新日期：2025年8月
+最后更新日期：2026.2.13
 
 ## 概述
 
@@ -35,10 +31,10 @@
 - 用途：提供 CDN 服务、安全防护、性能优化
 - 隐私政策：[Cloudflare 隐私政策](https://www.cloudflare.com/privacypolicy/)
 
-**Netlify**
+**EdgeOne**
 - 可能收集的信息：IP 地址、访问日志、性能数据
 - 用途：网站托管、部署服务
-- 隐私政策：[Netlify 隐私政策](https://www.netlify.com/privacy/)
+- 隐私政策：[EdgeOne 隐私政策](https://www.netlify.com/privacy/)
 
 ### 分析和统计服务
 
@@ -111,8 +107,7 @@
 ## 滥用与版权举报
 
 如果您发现网站内容存在滥用、侵权或其他违法违规行为，请通过以下方式联系我们：
-- **邮箱**：email@14131413.xyz
-- **Telegram**：https://t.me/yCENzh
+- **邮箱**：admin@cldery.com
 
 我们将认真对待每一个举报，并在收到举报后及时处理相关问题。
 
