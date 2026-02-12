@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "yCENzh's Blog",
-	subtitle: "爱你所爱~",
+	title: "Cloudery Blog",
+	subtitle: "追你所爱~",
 	themeColor: {
 		hue: 275, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "/Celestia.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		src: "/roxy.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "Pixiv @chokei", // Credit text to be displayed
-			url: "https://www.pixiv.net/artworks/122782209", // (Optional) URL link to the original artwork or artist's page
+			text: "Pixiv @动物Animals", // Credit text to be displayed
+			url: "https://www.pixiv.net/artworks/137395791", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -59,9 +59,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/' 原assets/images/demo-avatar.png,可选https://q2.qlogo.cn/headimg_dl?dst_uin=189563385&spec=0
-	name: "yCENzh",
-	bio: "Protect What You Love./爱你所爱！",
+	avatar: "/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/' 原assets/images/demo-avatar.png,可选https://q2.qlogo.cn/headimg_dl?dst_uin=189563385&spec=0
+	name: "Cloudery",
+	bio: "Pursue what you love. | 追你所爱.",
 	links: [
 		/*{
 			name: "Twitter",
@@ -78,13 +78,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/yCENzh",
-		},
+			url: "https://github.com/organizations/ClouderyStudio",
+		},/*
 		{
 			name: "Telegram",
 			icon: "fa6-brands:telegram",
 			url: "https://t.me/yCENzh",
-		},/*
+		},
 		{
 			name: "开往",
 			icon: "fa6-solid:train-subway",
