@@ -1,0 +1,23 @@
+---
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+const termsPost = await getEntry("spec", "terms-of-use");
+
+if (!termsPost) {
+	throw new Error("Terms of use page content not found");
+}
+
+const { Content } = await render(termsPost);
+---
+
+<MainGridLayout title="使用政策与规定" description="云术博客平台的使用政策与规定">
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
+        </div>
+    </div>
+</MainGridLayout>

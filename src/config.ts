@@ -44,6 +44,11 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.Series,
 		LinkPreset.About,
+		{
+			name: "使用政策",
+			url: "/terms-of-use/",
+			external: false,
+		},
 		LinkPreset.Friends,
 		/*{
 			name: "GitHub",
