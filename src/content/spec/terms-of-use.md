@@ -155,8 +155,7 @@ draft: false
 
 ### 8.4 联系方式
 如有任何疑问、建议或投诉，请通过以下方式联系我们：
-- GitHub Issues：[博客仓库Issues](https://github.com/your-repo/issues)
-- 邮箱：contact@example.com
+- 邮箱：admin@cldery.com
 
 ## 九、附则
 
@@ -164,4 +163,4 @@ draft: false
 2. 本政策的最终解释权归云术博客所有
 3. 如有未尽事宜，将按照相关法律法规处理
 
-**最后更新日期：2026年2月20日**
+**最后更新日期：2026年2月26日**
